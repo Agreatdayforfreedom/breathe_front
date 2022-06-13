@@ -1,0 +1,15 @@
+
+.section {
+  border: 1px solid var(--black-shadow);
+  border-radius: .2rem;
+  padding: .5rem;
+  margin-top: 5rem !important; 
+}
+.noposts{
+  width: fit-content;
+  margin: 2rem auto 0 auto;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--black-shadow);
+  text-shadow: 0 0 10px var(--white), 0 0 10px var(--magenta), 0 0 10px var(--white), 0 0 10px var(--magenta);
+}

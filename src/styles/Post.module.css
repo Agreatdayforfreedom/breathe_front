@@ -1,0 +1,87 @@
+.wrapper_content{
+  border: 1px solid var(--bg-body);
+  background-color: var(--gray-op2);
+  margin: 1rem .3rem;
+}
+/* .section_content{
+  padding: .5rem;
+  flex: 1;
+} */
+/* .title_post{
+  font-size: 1.4rem;
+  border-bottom: 1px solid #373d43;
+  padding: 1rem 0 .5rem 0;
+}
+.subject_post{
+    padding: .5rem 1rem;
+} */
+
+.box_post {
+    display: flex;
+}
+.info_user{
+    width: 12.5%;
+    display: flex;
+    border-right: 1px solid var(--bg-body);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+/* .actions_date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #373d43;
+} */
+/* .date_text{
+    color: rgb(138, 110, 21);
+    font-size: .7rem;
+    padding: 0 .3rem .3rem .3rem;
+} */
+.wrapper_user_info{
+    margin: 0 auto;
+    width: 100%;
+}
+/* .wrapper_actions{
+    margin: .2rem;
+    height: 22px;
+    text-align: right;
+} */
+.avatar_user{
+    width: 3rem;
+    border-radius: 50%;
+}
+
+/* .send_message_wrapper{
+    width: 100%;
+    text-align: center;
+}
+.form_message{
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.textarea_message{
+    width: 95%;
+    height: 120px;
+    background: transparent;
+    border: 1px solid var(--bg-body);
+    color: var(--bg-body);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .5rem;
+    margin: .4rem auto 0 auto;
+}
+.textarea_message::placeholder {
+    color: var(--bg-body);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.textarea_message:focus{
+  outline: none !important;
+  border-color: var(--magenta);
+  box-shadow: 0 0 10px var(--magenta), 0 0 10px var(--magenta);
+  background-color: var(--gray-op2);
+  width: 96%;
+  transition: all .2s ease-in;
+} */

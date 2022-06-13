@@ -1,0 +1,32 @@
+.section_content{
+    padding: .5rem;
+    flex: 1;
+}
+
+.actions_date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #373d43;
+}
+
+.date_text{
+    color: rgb(138, 110, 21);
+    font-size: .7rem;
+    padding: 0 .3rem .3rem .3rem;
+}
+
+.wrapper_actions{
+    margin: .2rem;
+    height: 22px;
+    text-align: right;
+}
+
+.title_post{
+    font-size: 1.4rem;
+    border-bottom: 1px solid #373d43;
+    padding: 1rem 0 .5rem 0;
+}
+  .subject_post{
+    padding: .5rem 1rem;
+}

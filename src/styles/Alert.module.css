@@ -1,0 +1,13 @@
+.alert {
+  padding: 0.5rem;
+  text-align: center;
+  margin: 1rem;
+  color: var(--white);
+  font-weight: bold;
+}
+.alert_danger {
+  border-left: 4px solid var(--bg-red);
+}
+.alert_success {
+  border-left: 4px solid var(--bg-success);
+}

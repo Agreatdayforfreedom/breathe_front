@@ -1,0 +1,12 @@
+.info_user{
+    width: 12.5%;
+    display: flex;
+    border-right: 1px solid var(--bg-body);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.avatar_user{
+    width: 3rem;
+    border-radius: 50%;
+}

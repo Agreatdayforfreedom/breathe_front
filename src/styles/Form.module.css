@@ -1,0 +1,43 @@
+.form {
+  margin: 5rem auto;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  width: 60%;
+  background: linear-gradient(45deg, var(--magenta-op2), var(--purple-op2), var(--black));
+  /* border: 1px solid var(--black-shadow); */
+  /* box-shadow: 5px 5px 15px var(--black-shadow); */
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+}
+
+.input_item {
+  padding: 0.5rem;
+  background-color: var(--black);
+  color: var(--white);
+  border: 1px solid var(--black-shadow);
+}
+.input_item::placeholder{
+  color: var(--bg-body);
+}
+.input_item:focus {
+  outline: none !important;
+  border-color: var(--blue-hover);
+  box-shadow: 0 0 10px var(--blue-hover);
+}
+.label {
+  padding: 0.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--bg-body);
+}
+.asterik_required{
+  color: red;
+  font-size: .8rem;
+  font-weight:100;
+  vertical-align: top;
+}
+
